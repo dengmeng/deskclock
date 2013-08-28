@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/list_item_bg" android:paddingLeft="@dimen/timezone_item_layout_padding_horizontal" android:paddingRight="@dimen/timezone_item_layout_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@+id/timezone_name" style="@style/AlarmItemTimezoneStyle" />
+        <com.android.deskclock.WorldclockDigitalClock android:id="@+id/timezone_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:id="@+id/timeDisplay" android:paddingRight="@dimen/time_zone_display_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TimeDigitsStyle" />
+            <TextView android:id="@+id/timezone_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.ListView.SecondaryItem" />
+            <TextView android:id="@+id/am_pm" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.ListView.SecondaryItem" />
+        </com.android.deskclock.WorldclockDigitalClock>
+    </LinearLayout>
+    <com.android.deskclock.TimezoneAnalogClock android:id="@+id/analogClock" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <CheckBox android:layout_gravity="center" android:id="@android:id/checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

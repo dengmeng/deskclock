@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ampm_off">#ff404040</color>
+    <color name="ampm_on">#ffffffff</color>
+    <color name="time_text_color">#e6ffffff</color>
+    <color name="ampm_text_color">#99ffffff</color>
+    <color name="screen_saver_color">#ff006688</color>
+    <color name="screen_saver_dim_color">#ff001634</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffee0000</color>
+    <color name="grey">#ff787878</color>
+    <color name="background">#ff363636</color>
+    <color name="primary_text_color_shadow">#80ffffff</color>
+    <color name="secondary_text_color_shadow">#80ffffff</color>
+    <color name="secondary_text">#b2000000</color>
+    
+    <!-- dengmeng add -->
+    <color name="primary_text">#e6ffffff</color>
+    <color name="primary_tab_text">#e6ffffff</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="alarm_fullscreen_title_color">#66FF8917</color>
+    <!-- worldclock -->
+    <color name="window_background">#FF191919</color>
+    <color name="grid_dark_background">#EB191919</color>     
+    <color name="bubble_dark_background">#B2191919</color>
+    <color name="delete_color_filter">#A5FF0000</color>
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="snag_callout_color">#F444</color>
+    <color name="gesture_color">#ff0563c1</color>
+    <color name="uncertain_gesture_color">#ff848484</color>
+    
+</resources>

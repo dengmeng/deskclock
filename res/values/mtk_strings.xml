@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- button to Dismiss and power on device -->
+    <string name="power_on">Dismiss and power on</string>
+    <!-- button to Dismiss and power off device -->
+    <string name="power_off">Dismiss and power off</string>
+    <string name="repeat_weekdays">Weekdays</string>
+    <string name="stop_watch">Stopwatch</string>
+</resources>
